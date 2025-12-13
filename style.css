@@ -1,0 +1,204 @@
+.nav-link::before {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all 0.6s ease;
+    pointer-events: auto;
+}
+.navbar a:visited{
+    color: white;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    scroll-margin-top: 100px;
+}
+
+.navbar a:hover {
+    background: #fff;
+    color: #00103f;
+    border-radius: 30px;
+}
+
+/*.card-events{
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    flex-grow: 1;
+
+}*/ 
+.card .read-more:hover{
+    font-size: 14px;
+}
+
+.card:hover{
+    box-shadow: 8px 8px 8px rgb(45, 45, 46);
+    transform:scale(1.1);
+    flex-grow: 0.1;
+}
+
+.card{
+  height:250px;
+  width:200px;
+  border:1px solid rgb(88, 87, 87);
+  transition:.5s;
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.img-event{
+    height:230px;
+    width:150px; 
+}
+.cards{
+    
+    height: 170px;
+}
+.Massage{
+    align-items: center;
+}
+.img-fixed{
+    background-image: url(shariya\ new.jpeg); 
+    background-size: cover;        /* fills entire area */
+    background-position: center;   /* centered */
+    background-repeat: no-repeat;  /* no repeat */
+    background-attachment: fixed;  /* parallax fixed bg */
+    width: 100%;
+    
+}
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-size: cover;    
+}
+
+.known a:visited{
+    color: #fff;
+    
+}
+.known a {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #00103f;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.known a:hover {
+    background: #fff;
+    color: #00103f;
+    border-radius: 30px;
+    font-size: 100%;
+    font-family: monospace;
+
+}
+  body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 40px 0;
+    }
+
+    .section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    .stats-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .stat-card {
+      background: white;
+      padding: 20px 50px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      width: 220px;
+    }
+
+    .stat-number {
+      font-size: 36px;
+      color: #c19d3d;
+      font-weight: bold;
+    }
+
+    .stat-label {
+      font-size: 16px;
+      margin-top: 10px;
+      color: #333;
+      
+    }
+.curved-underline {
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+
+.curved-underline::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 10px;
+    width: 200px;
+    height: 12px;
+    border-bottom: 5px solid #fcd849;
+    border-radius: 50%;
+}
+.fixed-bg {
+    background-image: url('shariya\ new\ 2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height: 600px; 
+    width: 100%;
+}
+
+
+.hero::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,0.9), transparent);
+    z-index: 1;
+    pointer-events: none;
+}
+.hero-text {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    z-index: 2;
+    max-width: 40%;
+}
+.highlight {
+    color: #fcd849; 
+    font-weight: 900;
+    
+}
+.welcome-font {
+font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
